@@ -17,10 +17,10 @@ def number_eight():
 # Exercise 3: Formatting
 def name_age ():
     name = input("What is your first name? ")
-    age = str(input("What is your age? "))
+    age = input("What is your age? ")
     print("Hi {}, you are {} years old.".format(name, age))
     print(f"Hi {name}, you are {age} years old.")
-    print("Hi " + name + ", you are " + str(age) + " years old.")
+    print("Hi " + name + ", you are",age, " years old.")
 
 # Exercise 4: Swap
 def swap_integers():
@@ -42,9 +42,13 @@ def check_numbers(num_1, num_2):
     
     if devisible_by_six:
         print("Atleast one number is divisible by 6.")
-
+    else:
+        print("No number is divisible by 6.")
+    
     if devisible_by_ten:
         print("Both numbers are divisible by 10.")
+    else:
+        print("Atleast one number is not divisible by 10.")    
     
     if devisible_by_ten and devisible_by_six:
         return True 
@@ -77,31 +81,34 @@ def triangle(rows):
         print("* " * i)
 
 
-"""
+
 # Exercise 1
-famous_quote()
+#famous_quote()
 
 # Exercise 2
-number_eight()
+#number_eight()
 
 # Exercise 3
-name_age()
+#name_age()
 
 # Exercise 4
-swap_integers()
+#swap_integers()
 
 # Exercise 5
-check_numbers(60, 120)
+#check_numbers(6, 120)
 
 # Exercise 6
-sum_up(1, 10)
+#sum_up(1, 10)
 
 # Exercise 7
-sequence(5)
+#sequence(5)
 
 # Exercise 8
-check_string("a BananA")
+#check_string("a BananA")
 
 # Exercise 9
-triangle(4)
-"""
+#triangle(4)
+
+
+
+
