@@ -48,7 +48,7 @@ def check_numbers(num_1, num_2):
     if devisible_by_ten:
         print("Both numbers are divisible by 10.")
     else:
-        print("Atleast one number is not divisible by 10.")    
+        print("max. one number is not divisible by 10.")    
     
     if devisible_by_ten and devisible_by_six:
         return True 
