@@ -107,7 +107,7 @@ def triangle(rows):
 #check_string("a BananA")
 
 # Exercise 9
-#triangle(4)
+triangle(4)
 
 
 
